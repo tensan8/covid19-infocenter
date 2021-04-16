@@ -13,6 +13,7 @@
 		#footer1 a img{ width: 25px; height: 25px; margin-left: 4px; }
 		#footer1 h5 { margin-top: 0.75rem; }
 		#footer1  { padding-top: 0.95rem; }
+		a:hover {text-decoration: underline;}
 	</style>
 	<title>Pfizer-BioNTech | COVID-19 Info Center</title>
     <meta name="description" content="">
@@ -52,9 +53,9 @@
                                         <div class="row">
                                             <div class="col">
                                                 <h3 class="card-title h3 mb-3 text-left">Overview</h3>
-                                                <p>General information</p>
-												<p>Before/After get vaccinated</p>
-                                                <p>Side effects</p>
+                                                <p><a href="#t1">General information</a></p>
+												<p><a href="#t2">Before/After get vaccinated</a></p>
+                                                <p><a href="#t3">Side effects</a></p>
                                                
                                             </div>
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
@@ -85,9 +86,8 @@
                                 </div>
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">General information</h2>
-                                        <img src="images/Pfizer.jpg" alt="BioNTech-Pfizer vaccine" width="420" />
-                                        <p>Source: <a href="https://www.dw.com/en/biontech-pfizer-vaccine-likely-to-protect-against-highly-infectious-uk-variant/a-56284614">dw.com</a></p>
+                                        <h2 class="card-title h3 mb-3 text-left" id="t1">General information</h2>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AM3gSgvN2Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 										<p>Name: BNT162b2</p>
 										<p>Type of vaccine: mRNA</p>
 										<p>Number of shots: 2 shots, 21 days apart</p>
@@ -133,7 +133,10 @@
                             <div class="col-md-12">
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">Before/After get vaccinated</h2>
+                                        <h2 class="card-title h3 mb-3 text-left" id="t2">Before/After get vaccinated</h2>
+										<img src="images/Pfizer.jpg" alt="BioNTech-Pfizer vaccine" width="420" />
+                                        <p>Source: <a href="https://www.dw.com/en/biontech-pfizer-vaccine-likely-to-protect-against-highly-infectious-uk-variant/a-56284614">dw.com</a></p>
+										
 										<p><strong>Before get vaccinated</strong></p>
 										<p>If you have had a severe *allergic reaction or an *immediate allergic reaction 
 										to any ingredient in an mRNA COVID-19 vaccine, you should not get an mRNA COVID-19 vaccine</p>
@@ -177,7 +180,7 @@
                             <div class="col-md-12">
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">Side effects</h2>
+                                        <h2 class="card-title h3 mb-3 text-left"  id="t3" >Side effects</h2>
                                         
                                         <p>These side effects usually start within a day or two of getting the vaccine. Side effects might affect your ability to do daily activities, but they should go away in a few days.</p>
                                         <p><strong>In the arm where you got the shot:</strong></p>
@@ -220,15 +223,12 @@
 				
 				<div class="links">
 				<h5>For More Information</h5>
-					<a href="">
-						 <img alt="" src="images/who.png">
-					</a>
-					<a href="" >
-						 <img alt="" src="images/Pfizer.jpg">
-					</a>
-					<a href="" >
-						 <img alt="" src="images/Pfizer.jpg">
-					</a>
+					<a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2Qd9xEiDYnHrXeOUcVEKjlaJpxDo9dRbQtlLEdwYn2HszC_Bvppp4doaAgKoEALw_wcB">
+                            <img alt="" src="images/who.png">
+                    </a>
+                    <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html" >
+                            <img alt="" src="images/cdc.jpg">
+                    </a>
 				</div>
                 <?php include_once 'footer.php'; ?>
             </div>
