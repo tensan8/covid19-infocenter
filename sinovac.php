@@ -75,8 +75,11 @@
                         <div class="row ">
                             <div class="col-md-12">
                                 <div class="color-bar cyan half">
-                                    <div></div>
-                                    <div></div>
+                                    <div><video width="620" height="350" controls src="videos/mixing_vaccines.mp4"></video>
+                                        <p><a href="https://www.youtube.com/watch?v=PRl8xofKc-M">China considering mixing different COVID-19 vaccines to improve low efficacy of its Vaccines | WION</a></p>
+                                    </div>
+                                    <div><video width="620" height="350" controls src="videos/interview_sinovac's_ceo.mp4"></video>
+                                        <p><a href="https://www.youtube.com/watch?v=gl51bM19BEI">Interview with Sinovac's CEO</a></p></div>
                                     <div></div>
                                 </div>
                                 <div class="card border-0 rounded-0 mb-3">
@@ -170,13 +173,23 @@
     <div class="container-fluid">
         <div class="container">
         
-            <div class="card-body bg-quaternary">
-                    
+            <div class="card-body bg-quaternary" id="footer1">
+                <div class="links">
+                <h5>For More Information</h5>
+                    <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2Qd9xEiDYnHrXeOUcVEKjlaJpxDo9dRbQtlLEdwYn2HszC_Bvppp4doaAgKoEALw_wcB">
+                            <img alt="" src="images/who.png">
+                    </a>
+                    <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html" >
+                            <img alt="" src="images/cdc.jpg">
+                    </a>
+                    <a href="http://english.nmpa.gov.cn/" >
+                            <img alt="" src="images/nmpa.JPG">
+                    </a>
+                </div>
                 <?php include_once 'footer.php'; ?>
-                
-            </div>
         </div>
     </div>
+    
     
 </body>
 </html>
