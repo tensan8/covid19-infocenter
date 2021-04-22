@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="home_files/bootstrap.css">
     <link rel="stylesheet" href="home_files/app.css">
        
-	<title>Home | COVID-19 Info Center</title>
+	<title>Register | COVID-19 Info Center</title>
     <style type="text/css">
 		#footer1 a:link { text-decoration: none; }
 		#footer1 a img{ width: 25px; height: 25px; margin-left: 4px; }
@@ -35,7 +35,7 @@
                 
                     <div class="row">
                         <br>
-                        <h2 id="content" class="open d-lg-block">COVID-19 and Vaccines</h2>
+                        <h2 id="content" class="open d-lg-block">Register for Vaccination</h2>
                         <br>
                         <br>
                         <br>
@@ -128,100 +128,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row ">
-                            <div class="col-md-12">
-                                <div class="color-bar cyan half">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <div class="card border-0 rounded-0 mb-3">
-                                    <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">About COVID-19</h2>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-12">
-                                <div class="row-fluid">
-                                    <div class="vc_empty_space col-12 pt-3 pb-3">
-                                        <span class="vc_empty_space_inner"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="color-bar cyan half">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="card border-0 rounded-0 mb-3">
-                                    <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">COVID-19 Symptoms</h2>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-12">
-                                <div class="card border-0 rounded-0">
-                                    <div class="card-body bg-quaternary">
-                                        <h2 class="card-title h3 mb-3 text-left"><strong>How to protect yourself from COVID-19</strong></h2>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-12">
-                                <div class="row-fluid">
-                                    <div class="vc_empty_space col-12 pt-3 pb-3">
-                                        <span class="vc_empty_space_inner"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="color-bar cyan half">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="card border-0 rounded-0 mb-3">
-                                    <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">Vaccines</h2>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-12">
-                                <div class="card border-0 rounded-0">
-                                    <div class="card-body bg-quaternary">
-                                        <h2 class="card-title h3 mb-3 text-left">Several COVID-19 Vaccines</h2>
-                                        <ul>
-                                            <li>Pfizer-BioNTech</li>
-                                            <li>Sinovac</li>
-                                            <li>AstraZeneca</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          <br>
-          <br>
-          <br>
-     
         </main>
     						
     </div> 
