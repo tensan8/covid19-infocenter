@@ -119,9 +119,12 @@
                                         <p>
                                             This virus, that was spread by the infected droplets being inhaled 
                                             by the person who does not have this virus, has caused a lot of loss.
-                                            There has been more than <strong>125,000,000 confirmed cases</strong> 
-                                            of COVID-19 with more than <strong>2,500,000 deaths</strong>.
-                                            There are also around <strong>114 Million people loss their job</strong> 
+                                            There has been more than 
+                                            <strong class="highlight">125,000,000 confirmed cases</strong> 
+                                            of COVID-19 with more than 
+                                            <strong class="highlight">2,500,000 deaths</strong>.
+                                            There are also around 
+                                            <strong class="highlight">114 Million people loss their job</strong> 
                                             over 2020, causing some countries to suffer from economic recession.
                                             Several ways have been done in order to stop the spread of this virus 
                                             and to end this pandemic, starting from practicing social distancing, 
@@ -250,7 +253,8 @@
                                             vaccine contains viruses or bacteria. The thing that 
                                             we need to know here is that, the viruses or the bacteria, 
                                             that were used for these vaccines, have been 
-                                            <strong>weakened</strong>. This weakened viruses will train 
+                                            <strong class="highlight">weakened</strong>. 
+                                            This weakened viruses will train 
                                             our natural immune system to produce the 
                                             antibodies, hence we will have a lower probability of being infected.
                                         </p>      
@@ -275,9 +279,9 @@
                                     <div class="card-body bg-quaternary">
                                         <h2 class="card-title h3 mb-3 text-left">Several COVID-19 Vaccines</h2>
                                         <ul>
-                                            <li>Pfizer-BioNTech</li>
-                                            <li>Sinovac</li>
-                                            <li>AstraZeneca</li>
+                                            <li><a href="pfizer.php">Pfizer-BioNTech</a></li>
+                                            <li><a href="sinovac.php">Sinovac</a></li>
+                                            <li><a href="astrazeneca.php">AstraZeneca</a></li>
                                         </ul>
                                     </div>
                                     </br>

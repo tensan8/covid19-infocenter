@@ -69,8 +69,8 @@ img {
     font-size: 1rem;
 }
 
-/* Strong */
-strong{
+/* Highlight */
+.highlight{
    color: red;
 }
 
