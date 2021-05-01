@@ -285,9 +285,10 @@
                                         </ul>
                                     </div>
                                     </br>
-                                    <iframe src="https://tinyurl.com/3hdphew9" 
+                                    <iframe src="https://tinyurl.com/9m9d54u9" 
                                         loading="lazy" 
-                                        style="width: 100%; height: 600px; border: 0px none;"></iframe>
+                                        style="width: 100%; height: 600px; border: 0px none;">
+                                    </iframe>
                                     </br>
                                     <img src="images/lets_vaccine.jpg" alt="Let's Vaccine" width="420" />
                                     <p>Source: 
