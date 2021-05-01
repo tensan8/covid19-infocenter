@@ -16,8 +16,7 @@
         #footer1 h5 { margin-top: 0.75rem; }
         #footer1  { padding-top: 0.95rem; }
     </style>
-    <meta name="description" content="">
- <meta name="keywords" content="">	
+    <meta name="description" content=""><meta name="keywords" content="">	
 </head>
 
 <body>
