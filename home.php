@@ -41,7 +41,7 @@
                         
                     </div>
                     <div class="cdc-2020-bar container">
-		
+
                     </div>
                  
                     <div class="syndicate">
@@ -61,7 +61,14 @@
                                                 <div class="text-center">
                                                     <img src="home_files/clipboard.png" 
                                                          alt="Clipboard with checkstrongs" 
-                                                         class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
+                                                         class="card-img-top 
+                                                                img-fluid 
+                                                                p-0 
+                                                                bg-primary 
+                                                                card-img-orig 
+                                                                d-none 
+                                                                d-md-block 
+                                                                rounded-0">
                                                 </div>
                                             </div>
                                         </div>
@@ -92,7 +99,11 @@
                                                 About COVID-19
                                         </h2>
                                         <video width="620" height="350" controls src="videos/pandemic.mp4"></video>
-                                        <p><a href="https://www.youtube.com/watch?v=RZRQdiEzvjg">Sebastian Jern - Pandemic</a></p>
+                                        <p>
+                                            <a href="https://www.youtube.com/watch?v=RZRQdiEzvjg">
+                                                Sebastian Jern - Pandemic
+                                            </a>
+                                        </p>
 
                                         <p>
                                             Coronavirus disease 2019 or also known as COVID-19 
@@ -142,7 +153,7 @@
                                         <h2 class="card-title h3 mb-3 text-left" id="symptoms">COVID-19 Symptoms</h2>
                                         <img src="images/symptoms.png" alt="COVID-19 Symptoms" width="420" />
                                         <p>Source: 
-                                            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">
+                                            <a href="https://tinyurl.com/n9u85tsh">
                                                 WHO
                                             </a>
                                         </p>
@@ -189,7 +200,10 @@
                                                 How to protect yourself from COVID-19
                                             </strong>
                                         </h2>
-                                        <p>These are several ways that we can do in order to protect us and our family: </p>
+                                        <p>
+                                            These are several ways that we can do 
+                                            in order to protect us and our family: 
+                                        </p>
                                         <ul>
                                             <li>Wearing a mask when going to public space</li>
                                             <li>Praticing physical distancing (Minimum 1 Metre)</li>
@@ -274,7 +288,7 @@
                                     </br>
                                     <img src="images/lets_vaccine.jpg" alt="Let's Vaccine" width="420" />
                                     <p>Source: 
-                                        <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/toolkits/community-organization.html">
+                                        <a href="https://tinyurl.com/3zbafmy5">
                                             CDC
                                         </a>
                                     </p>
@@ -289,7 +303,7 @@
           <br>
      
         </main>
-					
+			
     </div> 
             
     <div class="container-fluid">
