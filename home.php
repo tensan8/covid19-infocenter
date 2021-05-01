@@ -3,19 +3,19 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="home_files/bootstrap.css">
     <link rel="stylesheet" href="home_files/app.css">
        
-	<title>Home | COVID-19 Info Center</title>
+    <title>Home | COVID-19 Info Center</title>
     <style type="text/css">
-		#footer1 a:link { text-decoration: none; }
-		#footer1 a img{ width: 25px; height: 25px; margin-left: 4px; }
-		#footer1 h5 { margin-top: 0.75rem; }
-		#footer1  { padding-top: 0.95rem; }
-	</style>
+        #footer1 a:link { text-decoration: none; }
+        #footer1 a img{ width: 25px; height: 25px; margin-left: 4px; }
+        #footer1 h5 { margin-top: 0.75rem; }
+        #footer1  { padding-top: 0.95rem; }
+    </style>
     <meta name="description" content="">
     <meta name="keywords" content="">	
 </head>
@@ -41,7 +41,7 @@
                         
                     </div>
                     <div class="cdc-2020-bar container">
-							
+		
                     </div>
                  
                     <div class="syndicate">
@@ -52,14 +52,16 @@
                                         <div class="row">
                                             <div class="col">
                                                 <h3 class="card-title h3 mb-3 text-left">Overview</h3>
-                                                <p>About COVID-19</p>
-                                                <p>COVID-19 Symptoms</p>
-                                                <p>Vaccines</p>
+                                                <p><a href="#about">About COVID-19</a></p>
+                                                <p><a href="#symptoms">COVID-19 Symptoms</a></p>
+                                                <p><a href="#vaccines">Vaccines</a></p>
                                                
                                             </div>
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
                                                 <div class="text-center">
-                                                    <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
+                                                    <img src="home_files/clipboard.png" 
+                                                         alt="Clipboard with checkstrongs" 
+                                                         class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
                                                 </div>
                                             </div>
                                         </div>
@@ -85,7 +87,10 @@
                                 </div>
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">About COVID-19</h2>
+                                        <h2 class="card-title h3 mb-3 text-left" 
+                                            id="about">
+                                                About COVID-19
+                                        </h2>
                                         <video width="620" height="350" controls src="videos/pandemic.mp4"></video>
                                         <p><a href="https://www.youtube.com/watch?v=RZRQdiEzvjg">Sebastian Jern - Pandemic</a></p>
 
@@ -98,12 +103,12 @@
                                         </p>
                                         <p>
                                             This virus, that was spread by the infected droplets being inhaled by the person who does not have this virus, has caused a lot of loss.
-                                            There has been more than <mark>125,000,000 confirmed cases</mark> of COVID-19 with more than <mark>2,500,000 deaths</mark>.
-                                            There are also around <mark>114 Million people loss their job</mark> over 2020, causing some countries to suffer from economic recession.
+                                            There has been more than <strong>125,000,000 confirmed cases</strong> of COVID-19 with more than <strong>2,500,000 deaths</strong>.
+                                            There are also around <strong>114 Million people loss their job</strong> over 2020, causing some countries to suffer from economic recession.
                                             Several ways have been done in order to stop the spread of this virus and to end this pandemic, starting from practicing social distancing, 
                                             using mask, quarantine, lockdown, and vaccines.
                                         </p>
-                                    </div>
+                                    </div>                                
                                 </div>
                             </div>
                         </div>
@@ -125,7 +130,7 @@
                             <div class="col-md-12">
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">COVID-19 Symptoms</h2>
+                                        <h2 class="card-title h3 mb-3 text-left" id="symptoms">COVID-19 Symptoms</h2>
                                         <img src="images/symptoms.png" alt="COVID-19 Symptoms" width="420" />
                                         <p>Source: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">WHO</a></p>
                                         <p>
@@ -195,7 +200,7 @@
                             <div class="col-md-12">
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left">Vaccines</h2>
+                                        <h2 class="card-title h3 mb-3 text-left" id="vaccines">Vaccines</h2>
                                         <img src="images/vaccine_is_safe.png" alt="Vaccine is safe" width="420" />
                                         <p>Source: <a href="https://www.who.int/news">WHO</a></p>
                                         <p>
@@ -207,7 +212,7 @@
                                         <p>
                                             A lot of people are afraid with vaccine because vaccine contains viruses or bacteria. The thing that 
                                             we need to know here is that, the viruses or the bacteria, that were used for these vaccines, have been 
-                                            <mark>weakened</mark>. This weakened viruses will train our natural immune system to produce the 
+                                            <strong>weakened</strong>. This weakened viruses will train our natural immune system to produce the 
                                             antibodies, hence we will have a lower probability of being infected.
                                         </p>      
                                         <p>
@@ -231,6 +236,13 @@
                                             <li>AstraZeneca</li>
                                         </ul>
                                     </div>
+                                    </br>
+                                    <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&pickerSort=desc&pickerMetric=population&Metric=People+vaccinated&Interval=Cumulative&Relative+to+Population=true&Align+outbreaks=false&country=~MYS&hideControls=true" 
+                                        loading="lazy" 
+                                        style="width: 100%; height: 600px; border: 0px none;"></iframe>
+                                    </br>
+                                    <img src="images/lets_vaccine.jpg" alt="Let's Vaccine" width="420" />
+                                    <p>Source: <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/toolkits/community-organization.html">CDC</a></p>
                                 </div>
                             </div>
                         </div>
