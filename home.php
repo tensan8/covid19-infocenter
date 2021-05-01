@@ -4,6 +4,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">	
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="home_files/bootstrap.css">
@@ -16,8 +18,6 @@
         #footer1 h5 { margin-top: 0.75rem; }
         #footer1  { padding-top: 0.95rem; }
     </style>
-    <meta name="description" content="covid">
-    <meta name="keywords" content="home">	
 </head>
 
 <body>
