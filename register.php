@@ -53,13 +53,16 @@
                                         <div class="row">
                                             <div class="col">
                                                 <h3 class="card-title h3 mb-3 text-left">Register for your vaccine</h3>
-                                                <form id="regForm" method="post" action="confirm.php" novalidate="novalidate">
+                                                <form id="regForm" method="post" action="reg_process.php" novalidate="novalidate">
 <fieldset>
  <legend> Personal Details: </legend>
  <label>Name:
  <input type="text" name="vName" placeholder="name" pattern="[a-zA-Z]+$" required="required"/></label>  
  <label>Phone Number:
- <input type="text" name="vPhoneNo" placeholder="name@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required="required"/ ></label>
+ <input type="number" name="vPhoneNo" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$" required="required"/ ></label>
+    
+ <label>IC/Passport Number:
+ <input type="number" name="vIC" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"/ ></label>
     
  <label> Date of birth:
  <input type="text" name="vDob" name="pdob" placeholder="DD/MM/YYYY" required="required"/></label>
