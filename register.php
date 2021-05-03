@@ -59,8 +59,7 @@
  <label>Name:
  <input type="text" name="vName" placeholder="name" pattern="[a-zA-Z]+$" required="required"/></label>  
  <label>Phone Number:
- <input type="number" name="vPhoneNo" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$" required="required"/ ></label>
-    
+ <input type="number" name="vPhoneNo" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$" required="required"/ ></label>   
  <label>IC/Passport Number:
  <input type="number" name="vIC" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"/ ></label>
     
