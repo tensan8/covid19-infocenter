@@ -54,62 +54,57 @@
                                             <div class="col">
                                                 <h3 class="card-title h3 mb-3 text-left">Register for your vaccine</h3>
                                                 <form id="regForm" method="post" action="reg_process.php" novalidate="novalidate">
-<fieldset>
- <legend> Personal Details: </legend>
- <label>Name:
- <input type="text" name="input_name" placeholder="name" pattern="[a-zA-Z]+$" required="required"/></label>  
- <label>Phone Number:
- <input type="number" name="input_phonenumber" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$" required="required"/ ></label>   
- <label>IC/Passport Number:
- <input type="number" name="input_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"/ ></label>
-    
- <label> Date of birth:
- <input type="text" name="input_dob" name="pdob" placeholder="DD/MM/YYYY" required="required"/></label>
+                                                    <fieldset>
+                                                        <legend> Personal Details: </legend>
+                                                        <label>Name:
+                                                        <input type="text" name="input_name" placeholder="name" pattern="[a-zA-Z]+$" required="required"/></label>  
+                                                        <label>Phone Number:
+                                                        <input type="number" name="input_phonenumber" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$" required="required"/ ></label>   
+                                                        <label>IC/Passport Number:
+                                                        <input type="number" name="input_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"/ ></label>
+                                                            
+                                                        <label> Date of birth:
+                                                        <input type="text" name="input_dob" name="pdob" placeholder="DD/MM/YYYY" required="required"/></label>
 
- <label> Address:
- <input type="text" name="input_address" name="pdob" placeholder="No.XX, name of street, XXXXXX, city, state, country" required="required"/></label>
+                                                        <label> Address:
+                                                        <input type="text" name="input_address" name="pdob" placeholder="No.XX, name of street, XXXXXX, city, state, country" required="required"/></label>
+                                                    </fieldset>
 
-</fieldset>
+                                                    <fieldset>
+                                                        <legend>Age group</legend>
+                                                        <label> <input type="radio" name="input_agegroup"/>Under 18 years old</label>
+                                                        <label><input type="radio" name="input_agegroup"/>18 to 30 years old</label>
+                                                        <label><input type="radio" name="input_agegroup"/>30 to 40 years old</label>
+                                                        <label><input type="radio" name="input_agegroup"/>40 to 50 years old</label>
+                                                        <label><input type="radio" name="input_agegroup"/>Over 50 years old</label>
+                                                    </fieldset>   
+                                                        
+                                                    <fieldset>
+                                                        <legend>List of Pre-existing conditions (Skip if this doesn't apply to you)</legend> 
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="diabetes"/>Diabetes</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions"value="hbp"/>High Blood Pressure</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="highcholesterol"/>High Cholesterol</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="heartdisease"/>Heart Disease</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="asthma"/>Asthma (Or any other related Long-term Lung Disease)</label>
 
-
- <fieldset>
- <legend>Age group</legend>
- <label> <input type="radio" name="input_agegroup"/>Under 18 years old</label>
- <label><input type="radio" name="input_agegroup"/>18 to 30 years old</label>
- <label><input type="radio" name="input_agegroup"/>30 to 40 years old</label>
- <label><input type="radio" name="input_agegroup"/>40 to 50 years old</label>
- <label><input type="radio" name="input_agegroup"/>Over 50 years old</label>
-</fieldset>   
-    
-<fieldset>
-<legend>List of Pre-existing conditions (Skip if this doesn't apply to you)</legend> 
-<label><input type="checkbox" name="input_pre-existing_conditions" value="diabetes"/>Diabetes</label>
-<label><input type="checkbox" name="input_pre-existing_conditions"value="hbp"/>High Blood Pressure</label>
-<label><input type="checkbox" name="input_pre-existing_conditions" value="highcholesterol"/>High Cholesterol</label>
-<label><input type="checkbox" name="input_pre-existing_conditions" value="heartdisease"/>Heart Disease</label>
-<label><input type="checkbox" name="input_pre-existing_conditions" value="asthma"/>Asthma (Or any other related Long-term Lung Disease)</label>
-
-    
- <p><label>Share your questions or concerns regarding the vaccine<br/>
-       <textarea  name="input_questions" placeholder="long text" rows="8" cols="30">Enter comments here</textarea>
-    </label></p>
-</fieldset>
-    
-<fieldset>
-<legend>Preferred Date and time for Vaccine appointment</legend> 
-<p><label>Date<input type="date" name="input_datetime"  placeholder="DD/MM/YYYY" pattern="\d{1,2}/\d{1,2}/\d{4}"/></label></p>
-
-<p><label>Time<input type="time"  name="input_datetime" placeholder="HH:MM" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" id="12h"/></label></p>   
-</fieldset>
-        
- <p>
- <input type="submit" value="Submit"/>
- <input type="reset" value="reset"/>  
- </p>
-
-    </form>
-
-                                               
+                                                        <p>
+                                                            <label>Share your questions or concerns regarding the vaccine<br/>
+                                                                <textarea  name="input_questions" placeholder="long text" rows="8" cols="30">Enter comments here</textarea>
+                                                            </label>
+                                                        </p>
+                                                    </fieldset>
+                                                        
+                                                    <fieldset>
+                                                        <legend>Preferred Date and time for Vaccine appointment</legend> 
+                                                        <p><label>Date<input type="date" name="input_datetime"  placeholder="DD/MM/YYYY" pattern="\d{1,2}/\d{1,2}/\d{4}"/></label></p>
+                                                        <p><label>Time<input type="time"  name="input_datetime" placeholder="HH:MM" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" id="12h"/></label></p>   
+                                                    </fieldset>
+                                                            
+                                                    <p>
+                                                        <input type="submit" value="Submit"/>
+                                                        <input type="reset" value="reset"/>  
+                                                    </p>
+                                                </form>
                                             </div>
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
                                                 <div class="text-center">
