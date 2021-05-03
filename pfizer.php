@@ -185,7 +185,7 @@
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
                                         <h2 class="card-title h3 mb-3 text-left"  id="t3" >Side effects</h2>
-                                        <img src="images/MYTHS.jpg" 
+                                        <img src="images/MYTHs.jpg" 
 										alt="Myths about COVID-19 vaccine" width="420" />
                                         <p>Source: <a href="https://bit.ly/3eix2ZP">news10.com</a></p>
                                         <p>These side effects usually start within a day or two of getting the vaccine.
