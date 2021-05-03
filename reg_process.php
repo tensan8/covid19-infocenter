@@ -23,14 +23,24 @@
 
                 if(!isset($_POST['input_agegroup'])){
                     $error_msg[] = "No radio buttons were checked.";
+                }else{
+                    array_push($content_to_write, "Age group: " . $_POST['input_agegroup'] . "\n");
                 }
 
-                if(!isset($_POST['input_pre-existing_conditions'])){
-                    $error_msg[] = "Graguate was checked";
+                if(!empty($_POST['input_pre-existing_conditions'])){
+                    array_push($content_to_write, "Pre-existing Conditions: \n");
+
+                    foreach($_POST['input_pre-existing_conditions'] as $selected){
+                        array_push($content_to_write, "\t" . $selected . "\n");
+                    }
                 }
-                else {
-                    $submission_status = 'No age group selected';                 
-                }
+
+                #if(!isset($_POST['input_pre-existing_conditions'])){
+                #    $error_msg[] = "Graguate was checked";
+                #}
+                #else {
+                #    $submission_status = 'No age group selected';                 
+                #}
      
                 array_push($content_to_write, "Questions and Concerns: " . $_POST['input_questions'] . "\n");
            
@@ -42,7 +52,7 @@
                 $yy=$arr[2]; // third element is year
 
                 if(!checkdate($mm,$dd,$yy)){
-                    echo "invalid date";
+                    #echo "invalid date";
                 }
                 else {
                     echo "Entry date is correct";

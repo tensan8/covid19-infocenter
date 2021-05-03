@@ -72,20 +72,20 @@
 
                                                     <fieldset>
                                                         <legend>Age group</legend>
-                                                        <label> <input type="radio" name="input_agegroup"/>Under 18 years old</label>
-                                                        <label><input type="radio" name="input_agegroup"/>18 to 30 years old</label>
-                                                        <label><input type="radio" name="input_agegroup"/>30 to 40 years old</label>
-                                                        <label><input type="radio" name="input_agegroup"/>40 to 50 years old</label>
-                                                        <label><input type="radio" name="input_agegroup"/>Over 50 years old</label>
+                                                        <label><input type="radio" name="input_agegroup" value="Under 18 years old"/>Under 18 years old</label>
+                                                        <label><input type="radio" name="input_agegroup" value="18 to 30 years old"/>18 to 30 years old</label>
+                                                        <label><input type="radio" name="input_agegroup" value="30 to 40 years old"/>30 to 40 years old</label>
+                                                        <label><input type="radio" name="input_agegroup" value="40 to 50 years old"/>40 to 50 years old</label>
+                                                        <label><input type="radio" name="input_agegroup" value="Over 50 years old"/>Over 50 years old</label>
                                                     </fieldset>   
                                                         
                                                     <fieldset>
                                                         <legend>List of Pre-existing conditions (Skip if this doesn't apply to you)</legend> 
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="diabetes"/>Diabetes</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions"value="hbp"/>High Blood Pressure</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="highcholesterol"/>High Cholesterol</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="heartdisease"/>Heart Disease</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions" value="asthma"/>Asthma (Or any other related Long-term Lung Disease)</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="Diabetes"/>Diabetes</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="High Blood Pressure"/>High Blood Pressure</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="High Cholesterol"/>High Cholesterol</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="Heart Disease"/>Heart Disease</label>
+                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="Asthma (Or any other related Long-term Lung Disease)"/>Asthma (Or any other related Long-term Lung Disease)</label>
 
                                                         <p>
                                                             <label>Share your questions or concerns regarding the vaccine<br/>
