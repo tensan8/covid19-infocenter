@@ -30,7 +30,7 @@
 	if(!isset($_POST['input_agegroup'])){
 		$error_msg[] = "No radio buttons were checked.";
 	}
-	if(!isset($_POST['input_pre-existing conditions'])){
+	if(!isset($_POST['input_pre-existing_conditions'])){
 		$error_msg[] = "Graguate was checked";
 	}
      	else
@@ -40,7 +40,7 @@
 	}
      
         $content_to_write = "Questions and Concerns: " . $_POST['input_questions'] . "\n";
-        $dt=$_POST['dt'];
+        $dt=$_POST['input_datetime'];
         $dt="02/28/2007"; // Setting a date in m/d/Y format 
         $arr=explode("/",$dt); // breaking string to create an array
         $dd=$arr[0]; // first element of the array is date
