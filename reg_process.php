@@ -46,7 +46,7 @@
         $dd=$arr[0]; // first element of the array is date
         $mm=$arr[1]; // second element is month
         $yy=$arr[2]; // third element is year
-        If(!checkdate($mm,$dd,$yy)){
+        If(!checkdate($dd,$mm,$yy)){
              echo "invalid date";
         }else {
           echo "Entry date is correct";
