@@ -146,7 +146,8 @@
    
                                         <br/>
                                         <p><strong>After get vaccinated</strong></p>
-                                        <p>If you have had a severe *allergic reaction or an *immediate allergic reaction after getting the first dose of the vaccine , you should not get a second dose of either of the mRNA COVID-19 vaccines</p>
+                                        <p>If you have had a severe *allergic reaction or an *immediate allergic 
+										reaction after getting the first dose of the vaccine , you should not get a second dose of either of the mRNA COVID-19 vaccines</p>
    
                                         <br/>             
                                     </div>
@@ -161,7 +162,8 @@
 										
                                         <p>An <strong>allergic reaction</strong> is considered severe when a person
 										needs to be treated with epinephrine or EpiPen© or if they must go to the hospital.</p>
-                                        <p>An <strong>immediate allergic reaction</strong> means a reaction within 4 hours of getting vaccinated, including symptoms such as hives, swelling, or wheezing (respiratory distress).</p>
+                                        <p>An <strong>immediate allergic reaction</strong> means a reaction within 4
+										hours of getting vaccinated, including symptoms such as hives, swelling, or wheezing (respiratory distress).</p>
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +187,7 @@
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
                                         <h2 class="card-title h3 mb-3 text-left"  id="t3" >Side effects</h2>
-                                        <img src="images/MYTHs.jpg" 
+                                        <img src="images/Myths.jpg" 
 										alt="Myths about COVID-19 vaccine" width="420" />
                                         <p>Source: <a href="https://bit.ly/3eix2ZP">news10.com</a></p>
                                         <p>These side effects usually start within a day or two of getting the vaccine.
