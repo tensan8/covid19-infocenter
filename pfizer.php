@@ -61,7 +61,8 @@
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
                                                 <div class="text-center">
                                                     <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" 
-													class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
+                                                    class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none 
+                                                        d-md-block rounded-0">
                                                 </div>
                                             </div>
                                         </div>
@@ -88,8 +89,10 @@
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
                                         <h2 class="card-title h3 mb-3 text-left" id="t1">General information</h2>
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AM3gSgvN2Fw" title="YouTube video player"
-										frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe width="560" height="315" src="https://bit.ly/3nLHYlt" 
+                                            title="YouTube video player" frameborder="0" allow="accelerometer; 
+                                            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen></iframe>
                                         <p>Name: BNT162b2</p>
                                         <p>Type of vaccine: mRNA</p>
                                         <p>Number of shots: 2 shots, 21 days apart</p>
@@ -110,9 +113,15 @@
                             <div class="col-md-12">
                                 <div class="card border-0 rounded-0">
                                     <div class="card-body bg-quaternary">
-                                        <h2 class="card-title h3 mb-3 text-left"><strong>Who should get vaccinated</strong></h2>
-                                        <p>The Pfizer-BioNTech vaccine is recommended for people aged 16 years and older.</p>
-                                        <p>for more information, please visit <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations-process.html">US.Centers for Disease Control and Prevention</a></p>
+                                        <h2 class="card-title h3 mb-3 text-left">
+                                            <strong>Who should get vaccinated</strong>
+                                        </h2>
+                                        <p>
+                                            The Pfizer-BioNTech vaccine is recommended for people aged 16 years 
+                                            and older.
+                                        </p>
+                                        <p>for more information, please visit <a href="https://bit.ly/2QJM5CP">
+                                        US.Centers for Disease Control and Prevention</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -135,20 +144,27 @@
                             <div class="col-md-12">
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
-                                        <h2 class="card-title h3 mb-3 text-left" id="t2">Before/After get vaccinated</h2>
+                                        <h2 class="card-title h3 mb-3 text-left" id="t2">
+                                            Before/After get vaccinated
+                                        </h2>
                                         <img src="images/Pfizer.jpg" alt="BioNTech-Pfizer vaccine" width="420" />
                                         <p>Source: <a href="https://bit.ly/3efZEmq">dw.com</a></p>
                                         
                                         <p><strong>Before get vaccinated</strong></p>
-                                        <p>If you have had a severe *allergic reaction or an *immediate allergic reaction 
-                                        to any ingredient in an mRNA COVID-19 vaccine, you should not get an mRNA COVID-19 vaccine</p>
+                                        <p>
+                                            If you have had a severe *allergic reaction or an *immediate allergic 
+                                            reaction to any ingredient in an mRNA COVID-19 vaccine, you should not get 
+                                            an mRNA COVID-19 vaccine
+                                        </p>
                                         
    
                                         <br/>
                                         <p><strong>After get vaccinated</strong></p>
-                                        <p>If you have had a severe *allergic reaction or an *immediate allergic 
-										reaction after getting the first dose of the vaccine , you should not get a second dose of either of the mRNA COVID-19 vaccines</p>
-   
+                                        <p>
+                                            If you have had a severe *allergic reaction or an *immediate allergic 
+                                            reaction after getting the first dose of the vaccine , you should not get 
+                                            a second dose of either of the mRNA COVID-19 vaccines
+                                        </p>
                                         <br/>             
                                     </div>
                                 </div>
@@ -159,11 +175,16 @@
                                 <div class="card border-0 rounded-0">
                                     <div class="card-body bg-quaternary">
                                         <h2 class="card-title h3 mb-3 text-left"><strong>Footnote</strong></h2>
-										
-                                        <p>An <strong>allergic reaction</strong> is considered severe when a person
-										needs to be treated with epinephrine or EpiPen© or if they must go to the hospital.</p>
-                                        <p>An <strong>immediate allergic reaction</strong> means a reaction within 4
-										hours of getting vaccinated, including symptoms such as hives, swelling, or wheezing (respiratory distress).</p>
+                                        <p>
+                                            An <strong>allergic reaction</strong> is considered severe when a person
+                                            needs to be treated with epinephrine or EpiPen© or if they must go to the 
+                                            hospital.
+                                        </p>
+                                        <p>
+                                            An <strong>immediate allergic reaction</strong> means a reaction within 4
+                                            hours of getting vaccinated, including symptoms such as hives, swelling, or 
+                                            wheezing (respiratory distress).
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -188,10 +209,13 @@
                                     <div class="card-body ">
                                         <h2 class="card-title h3 mb-3 text-left"  id="t3" >Side effects</h2>
                                         <img src="images/Myths.jpg" 
-										alt="Myths about COVID-19 vaccine" width="420" />
+                                        alt="Myths about COVID-19 vaccine" width="420" />
                                         <p>Source: <a href="https://bit.ly/3eix2ZP">news10.com</a></p>
-                                        <p>These side effects usually start within a day or two of getting the vaccine.
-										Side effects might affect your ability to do daily activities, but they should go away in a few days.</p>
+                                        <p>
+                                            These side effects usually start within a day or two of getting the vaccine.
+                                            Side effects might affect your ability to do daily activities, but they 
+                                            should go away in a few days.
+                                        </p>
                                         <p><strong>In the arm where you got the shot:</strong></p>
                                         <ul>
                                             <lI>Pain</lI>
