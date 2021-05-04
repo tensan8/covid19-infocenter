@@ -3,26 +3,27 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="home_files/bootstrap.css">
     <link rel="stylesheet" href="home_files/app.css">
        
-	<title>Register | COVID-19 Info Center</title>
+    <title>Register | COVID-19 Info Center</title>
     <style type="text/css">
-		#footer1 a:link { text-decoration: none; }
-		#footer1 a img{ width: 25px; height: 25px; margin-left: 4px; }
-		#footer1 h5 { margin-top: 0.75rem; }
-		#footer1  { padding-top: 0.95rem; }
-	</style>
+        #footer1 a:link { text-decoration: none; }
+        #footer1 a img{ width: 25px; height: 25px; margin-left: 4px; }
+        #footer1 h5 { margin-top: 0.75rem; }
+        #footer1  { padding-top: 0.95rem; }
+        #regForm label {display: block;}
+    </style>
     <meta name="description" content="">
-    <meta name="keywords" content="">	
+    <meta name="keywords" content="">    
 </head>
 
 <body>
     <?php include_once 'header.php'; ?>
-	       
+           
     <!-- Page Content Wrap -->
     <div class="container d-flex flex-wrap body-wrapper bg-white">
     
@@ -42,7 +43,7 @@
                         
                     </div>
                     <div class="cdc-2020-bar container">
-							
+                            
                     </div>
                  
                     <div class="syndicate">
@@ -50,24 +51,44 @@
                             <div class="col-md-12">
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body bg-primary">
+                                    <div class="row">
+                                            <div class="col">
+                                    <form action="reg_check.php" method="post">
+                                    <fieldset>
+                                    <legend><h3> Check Your Registration</h3> </legend>
+                                    <label>
+                                    NRIC:
+                                        <input type="text" name="check_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"></input>
+                                    </label>
+                                        <button type="submit">Check</button>
+                                    </form> 
+                                    </fieldset>
+                                    </div>
+                                    
+                                    <div class="pl-md-0 col-md-3 d-none d-md-block">
+                                                <div class="text-center">
+                                                    <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
+                                                </div>
+                                            </div>
+                                            </div>
                                         <div class="row">
                                             <div class="col">
                                                 <h3 class="card-title h3 mb-3 text-left">Register for your vaccine</h3>
-                                                <form id="regForm" method="post" action="reg_process.php" novalidate="novalidate">
+                                                <form id="regForm" method="post" action="reg_process.php">
                                                     <fieldset>
                                                         <legend> Personal Details: </legend>
                                                         <label>Name:
-                                                        <input type="text" name="input_name" placeholder="name" pattern="[a-zA-Z]+$" required="required"/></label>  
+                                                        <input type="text" name="input_name" placeholder="name" pattern="[a-zA-Z]+$"    required="required"></label>  
                                                         <label>Phone Number:
-                                                        <input type="number" name="input_phonenumber" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$" required="required"/ ></label>   
+                                                        <input type="text" name="input_phonenumber" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$"  required="required"></label>   
                                                         <label>IC/Passport Number:
-                                                        <input type="number" name="input_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"/ ></label>
+                                                        <input type="text" name="input_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"></label>
                                                             
                                                         <label> Date of birth:
-                                                        <input type="text" name="input_dob" name="pdob" placeholder="DD/MM/YYYY" required="required"/></label>
+                                                        <input type="text" name="input_dob" name="pdob" placeholder="DD/MM/YYYY" required="required"></label>
 
                                                         <label> Address:
-                                                        <input type="text" name="input_address" name="pdob" placeholder="No.XX, name of street, XXXXXX, city, state, country" required="required"/></label>
+                                                        <input type="text" name="input_address" name="pdob" placeholder="No.XX, name of street, XXXXXX, city, state, country" required="required"></label>
                                                     </fieldset>
 
                                                     <fieldset>
@@ -97,20 +118,17 @@
                                                     <fieldset>
                                                         <legend>Preferred Date and time for Vaccine appointment</legend> 
                                                         <p><label>Date<input type="date" name="input_datetime"  placeholder="DD/MM/YYYY" pattern="\d{1,2}/\d{1,2}/\d{4}"/></label></p>
-                                                        <p><label>Time<input type="time"  name="input_datetime" placeholder="HH:MM" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" id="12h"/></label></p>   
+                                                        <p><label>Time<input type="time"  name="input_datetime" placeholder="HH:MM" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" id="12h"
+                                                        min="08:00" max="18:00"/></label></p>   
                                                     </fieldset>
                                                             
                                                     <p>
-                                                        <input type="submit" value="Submit"/>
-                                                        <input type="reset" value="reset"/>  
+                                                        <button type="submit">submit</button>
+                                                        <input type="reset" value="reset"/  
                                                     </p>
                                                 </form>
                                             </div>
-                                            <div class="pl-md-0 col-md-3 d-none d-md-block">
-                                                <div class="text-center">
-                                                    <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -126,33 +144,25 @@
                             </div>
                         </div>
         </main>
-    						
+                            
     </div> 
             
     <div class="container-fluid">
         <div class="container">
         
             <div class="card-body bg-quaternary" id="footer1">
+                
                 <div class="links">
                 <h5>For More Information</h5>
-                    <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey={adgroupsurvey}&gclid=Cj0KCQjwmcWDBhCOARIsALgJ2Qd9xEiDYnHrXeOUcVEKjlaJpxDo9dRbQtlLEdwYn2HszC_Bvppp4doaAgKoEALw_wcB">
+                    <a href="https://bit.ly/3efk3I6">
                             <img alt="" src="images/who.png">
                     </a>
-                    <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines.html" >
+                    <a href="https://bit.ly/339D2xl" >
                             <img alt="" src="images/cdc.jpg">
                     </a>
                 </div>
-                <div>
-                <h5>Disclaimer</h5>
-                <p style="font-size:0.8em;">This website is created mainly for educational and non-commercial use only. It is a 
-                partial fulfillment for completion of unit SWE20001 - Development Project 1 offered in 
-                Swinburne University of Technology, Sarawak Campus. The web-master and author(s) do not 
-                represent the business entity. The content of the pages of this website might be out-dated 
-                or inaccurate, thus, the author(s) and web-master does not take any responsibility for 
-                incorrect information disseminated or cited from this website.</p>
-                
+                <?php include_once 'footer.php'; ?>
             </div>
-        </div>
     </div>
     
 </body>
