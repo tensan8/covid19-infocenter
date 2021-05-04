@@ -55,7 +55,11 @@
                                             </div>
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
                                                 <div class="text-center">
-                                                <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
+                                                <img src="home_files/clipboard.png" 
+                                                alt="Clipboard with checkmarks" 
+                                                class="card-img-top img-fluid p-0 bg-primary 
+                                                card-img-orig d-none d-md-block rounded-0"
+                                                />
                                                 </div>
                                             </div>
                                         </div>
@@ -108,7 +112,9 @@
                                         <p>Source: <a href="https://www.bbc.com/news/health-55302595">www.bbc.com</a>
                                         </p>
                                         <p>
-                                            <img src="images/covishield.png" alt="How the Oxford vaccine works" width=100%/>
+                                            <img src="images/covishield.png" 
+                                                alt="How the Oxford vaccine works" 
+                                                width=100%/>
                                         </p>
                                         
                                         <h2 id="howlong" class="card-title h3 mb-3 text-left">
