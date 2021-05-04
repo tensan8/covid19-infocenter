@@ -149,6 +149,35 @@
                                         </p>
                                         <p>Source: <a href="https://www.bbc.com/news/health-55302595">www.bbc.com</a>
                                         </p>
+                                        <h2 id="does" class="card-title h3 mb-3 text-left">
+                                            Potential risk percentage
+                                        </h2>
+                                        <p align="justify">
+                                            When we look at the risks of COVID-19, we begin to appreciate that the 
+                                            benefits of getting vaccinated with AstraZeneca vaccine far outweigh the 
+                                            risks of serious adverse events, especially when community spread crosses 
+                                            a certain threshold. As of April 15, Ontario has a weekly case average of 
+                                            199.9 per 100,000 people. Community spread is objectively high. This graph 
+                                            from the UK Winton Centre for Risk and Evidence Communication illustrates 
+                                            nicely how in a high covid exposure risk situation (defined as 20 
+                                            infections per 10,000 daily, for example, like in some areas of Ontario 
+                                            right now), the benefits of the AstraZeneca vaccine far outweigh its risks 
+                                            (note: cases per week need to be converted to infections per day for proper 
+                                            comparison. There are estimated to be approximately 3-4 infections for 
+                                            every 1 reported case.)
+                                        </p>
+                                        <p>Source: <a href="https://bit.ly/3nL4VFu">www.thestar.com</a>
+                                        </p>
+                                        <p>
+                                            <img src="images/pharm2.png" 
+                                                alt="Potential bloodclot" 
+                                                width=100%/>
+                                        </p>
+                                        <p>
+                                            <img src="images/pharm.png" 
+                                                alt="Potential harm" 
+                                                width=100%/>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
