@@ -185,13 +185,11 @@
                     </div>
                 </div>
             </div>
-							
             <br>
             <br>
             <br>
         </main>				
     </div> 
-            
     <div class="container-fluid">
         <div class="container">
             <div class="card-body bg-quaternary" id="footer1">
