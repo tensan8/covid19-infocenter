@@ -11,7 +11,7 @@
        
     <title>Sinovac | COVID-19 Info Center</title>
     <meta name="description" content="Information about the sinovac vaccine">
-    <meta name="keywords" content="Sinovac, vaccine, covid-19">	
+    <meta name="keywords" content="Sinovac, vaccine, covid-19">
 </head>
 
 <body>
@@ -86,7 +86,8 @@
                                         </p>
                                     </div>
                                     <div>
-                                        <video width="620" height="350" controls src="videos/interview_sinovac's_ceo.mp4">
+                                        <video width="620" height="350" controls 
+                                            src="videos/interview_sinovac's_ceo.mp4">
                                         </video>
                                         <p><a href="https://bit.ly/3b0RzQm">Interview with Sinovac's CEO</a></p></div>
                                     <div></div>
