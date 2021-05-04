@@ -23,11 +23,9 @@
                     $actual = basename($_SERVER['PHP_SELF']);
                     foreach ($page as $x) {
                         echo "<li class=\"nav-item\" id=\"menu_home\">";
-
                         if ($x[1] == $actual) {
                             echo"<a class=\"nav-link active\" href=\"$x[1]\">$x[0]</a>";
-                        }
-                        else {
+                        } else {
                             echo"<a class=\"nav-link\" href=\"$x[1]\">$x[0]</a>";
                         }
                         echo"</li>";
