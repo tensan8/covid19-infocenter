@@ -3,13 +3,13 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="home_files/bootstrap.css">
     <link rel="stylesheet" href="home_files/app.css">
        
-	<title>AstraZeneca | COVID-19 Info Center</title>
+    <title>AstraZeneca | COVID-19 Info Center</title>
     <meta name="description" content="">
     <meta name="keywords" content="">	
 </head>
@@ -21,21 +21,18 @@
     
         <!-- Content -->
         <main class="col-xl-9 order-xl-2">
-            
             <div class="row">
-            
                 <div class="col content">
-                
                     <div class="row">
                         <br>
                         <h2 id="content" class="open d-lg-block">AstraZeneca Vaccine</h2>
                         <br>
                         <br>
                         <br>
-                        
                     </div>
+                    
                     <div class="cdc-2020-bar container">
-							
+                    
                     </div>
                  
                     <div class="syndicate">
@@ -49,7 +46,6 @@
                                                 <p><a href="#howdoes"> How does this vaccine work?</a></p>
                                                 <p><a href="#howlong"> How long do vaccines protect against Covid?</a></p>
                                                 <p><a href="#does"> Does the vaccine protect against new variants?</a></p>
-                                               
                                             </div>
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
                                                 <div class="text-center">
@@ -148,17 +144,14 @@
                 </div>
             </div>
 							
-          <br>
-          <br>
-          <br>
-     
-        </main>
-    						
+            <br>
+            <br>
+            <br>
+        </main>				
     </div> 
             
     <div class="container-fluid">
         <div class="container">
-        
             <div class="card-body bg-quaternary" id="footer1">
                 <div class="links">
                 <h5>For More Information</h5>

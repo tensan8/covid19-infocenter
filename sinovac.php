@@ -189,7 +189,6 @@
                 <?php include_once 'footer.php'; ?>
         </div>
     </div>
-    
-    
+        
 </body>
 </html>

@@ -12,7 +12,7 @@
         <nav class="navbar navbar-expand-xl yamm">
             <ul class="nav navbar-nav nav-justified w-100">
                 
-                <?php 
+                <?php
                     $page = array (
                         array("Home",'home.php'),
                         array("Pfizer-BioNTech",'pfizer.php'),
@@ -22,21 +22,16 @@
                     );
                     
                     $actual = basename($_SERVER['PHP_SELF']);
-                    foreach ($page as $x)  {
+                    foreach ($page as $x) {
                         echo "<li class=\"nav-item\" id=\"menu_home\">";
 
                         if ($x[1] == $actual)
-                            echo"<a class=\"nav-link active\" href=\"$x[1]\">$x[0]</a>";
-                            
+                            echo"<a class=\"nav-link active\" href=\"$x[1]\">$x[0]</a>";  
                         else
                             echo"<a class=\"nav-link\" href=\"$x[1]\">$x[0]</a>";
-                           
-                        echo"</li>";
-                            
+                        echo"</li>";     
                     }
-
                 ?>
-            
             </ul>
         </nav>
     </div>
