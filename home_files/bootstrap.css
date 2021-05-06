@@ -69,6 +69,11 @@ img {
     font-size: 1rem;
 }
 
+/* Highlight */
+.highlight{
+   color: red;
+}
+
 /* Highlight text */
 .mark, mark {
     padding: .2em;
