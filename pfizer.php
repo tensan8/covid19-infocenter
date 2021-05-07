@@ -61,12 +61,8 @@
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
                                                 <div class="text-center">
                                                     <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" 
-<<<<<<< HEAD
+
                                                 class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
-=======
-                                                    class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none 
-                                                        d-md-block rounded-0">
->>>>>>> 3ce550a7749bd331c6002b12c48d7acb06fcca16
                                                 </div>
                                             </div>
                                         </div>
@@ -93,15 +89,12 @@
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
                                         <h2 class="card-title h3 mb-3 text-left" id="t1">General information</h2>
-<<<<<<< HEAD
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AM3gSgvN2Fw" title="YouTube video player"
-                                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-=======
+
                                         <iframe width="560" height="315" src="https://bit.ly/3nLHYlt" 
                                             title="YouTube video player" frameborder="0" allow="accelerometer; 
                                             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                             allowfullscreen></iframe>
->>>>>>> 3ce550a7749bd331c6002b12c48d7acb06fcca16
+
                                         <p>Name: BNT162b2</p>
                                         <p>Type of vaccine: mRNA</p>
                                         <p>Number of shots: 2 shots, 21 days apart</p>
@@ -169,17 +162,13 @@
    
                                         <br/>
                                         <p><strong>After get vaccinated</strong></p>
-<<<<<<< HEAD
-                                        <p>If you have had a severe *allergic reaction or an *immediate allergic 
-                                        reaction after getting the first dose of the vaccine , you should not get a second dose of either of the mRNA COVID-19 vaccines</p>
-   
-=======
+
                                         <p>
                                             If you have had a severe *allergic reaction or an *immediate allergic 
                                             reaction after getting the first dose of the vaccine , you should not get 
                                             a second dose of either of the mRNA COVID-19 vaccines
                                         </p>
->>>>>>> 3ce550a7749bd331c6002b12c48d7acb06fcca16
+
                                         <br/>             
                                     </div>
                                 </div>
@@ -190,13 +179,7 @@
                                 <div class="card border-0 rounded-0">
                                     <div class="card-body bg-quaternary">
                                         <h2 class="card-title h3 mb-3 text-left"><strong>Footnote</strong></h2>
-<<<<<<< HEAD
-                                        
-                                        <p>An <strong>allergic reaction</strong> is considered severe when a person
-                                        needs to be treated with epinephrine or EpiPen© or if they must go to the hospital.</p>
-                                        <p>An <strong>immediate allergic reaction</strong> means a reaction within 4
-                                        hours of getting vaccinated, including symptoms such as hives, swelling, or wheezing (respiratory distress).</p>
-=======
+
                                         <p>
                                             An <strong>allergic reaction</strong> is considered severe when a person
                                             needs to be treated with epinephrine or EpiPen© or if they must go to the 
@@ -207,7 +190,7 @@
                                             hours of getting vaccinated, including symptoms such as hives, swelling, or 
                                             wheezing (respiratory distress).
                                         </p>
->>>>>>> 3ce550a7749bd331c6002b12c48d7acb06fcca16
+
                                     </div>
                                 </div>
                             </div>
@@ -234,16 +217,13 @@
                                         <img src="images/Myths.jpg" 
                                         alt="Myths about COVID-19 vaccine" width="420" />
                                         <p>Source: <a href="https://bit.ly/3eix2ZP">news10.com</a></p>
-<<<<<<< HEAD
-                                        <p>These side effects usually start within a day or two of getting the vaccine.
-                                        Side effects might affect your ability to do daily activities, but they should go away in a few days.</p>
-=======
+
                                         <p>
                                             These side effects usually start within a day or two of getting the vaccine.
                                             Side effects might affect your ability to do daily activities, but they 
                                             should go away in a few days.
                                         </p>
->>>>>>> 3ce550a7749bd331c6002b12c48d7acb06fcca16
+
                                         <p><strong>In the arm where you got the shot:</strong></p>
                                         <ul>
                                             <lI>Pain</lI>
