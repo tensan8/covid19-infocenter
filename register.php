@@ -125,7 +125,8 @@
                                                             <input type="text" 
                                                                    name="input_address" 
                                                                    name="pdob" 
-                                                                   placeholder="No.XX, name of street, XXXXXX, city, state, country" 
+                                                                   placeholder="No.XX, name of street, 
+                                                                                XXXXXX, city, state, country" 
                                                                    required="required">
                                                         </label>
                                                     </fieldset>
