@@ -20,11 +20,11 @@
             if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $error_msg = array();
 
-                if (!isset($_POST['input_agegroup'])) {
-                    $error_msg[] = "No radio buttons were checked.";
-                } else {
-                    array_push($content_to_write, "Age group: " . $_POST['input_agegroup'] . "\n");
-                }
+            if (!isset($_POST['input_agegroup'])) {
+                $error_msg[] = "No radio buttons were checked.";
+            } else {
+                array_push($content_to_write, "Age group: " . $_POST['input_agegroup'] . "\n");
+            }
 
             if (!empty($_POST['input_pre-existing_conditions'])) {
                 array_push($content_to_write, "Pre-existing Conditions: \n");
@@ -51,8 +51,8 @@
 
             file_put_contents($_POST['input_nric'] . '.txt', $content_to_write);
             echo '<h3>Registration is successful!</h3>';
-                }
-        }
+            }
+    }
     ?>
    
 </body>
