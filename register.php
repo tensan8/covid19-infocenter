@@ -71,7 +71,16 @@
                                     
                                     <div class="pl-md-0 col-md-3 d-none d-md-block">
                                                 <div class="text-center">
-                                                    <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
+                                                    <img src="home_files/clipboard.png" 
+                                                         alt="Clipboard with checkmarks" 
+                                                         class="card-img-top 
+                                                                img-fluid 
+                                                                p-0 
+                                                                bg-primary 
+                                                                card-img-orig 
+                                                                d-none 
+                                                                d-md-block 
+                                                                rounded-0"/>
                                                 </div>
                                             </div>
                                             </div>
@@ -82,11 +91,26 @@
                                                     <fieldset>
                                                         <legend> Personal Details: </legend>
                                                         <label>Name:
-                                                        <input type="text" name="input_name" placeholder="name" pattern="[a-zA-Z]+$"    required="required"></label>  
+                                                            <input type="text" 
+                                                                   name="input_name" 
+                                                                   placeholder="name" 
+                                                                   pattern="[a-zA-Z]+$"    
+                                                                   required="required">
+                                                        </label>  
                                                         <label>Phone Number:
-                                                        <input type="text" name="input_phonenumber" placeholder="[+60]1029304387" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$"  required="required"></label>   
+                                                            <input type="text" 
+                                                                   name="input_phonenumber" 
+                                                                   placeholder="[+60]1029304387" 
+                                                                   pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$"  
+                                                                   required="required">
+                                                        </label>   
                                                         <label>IC/Passport Number:
-                                                        <input type="text" name="input_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"></label>
+                                                            <input type="text" 
+                                                                   name="input_nric" 
+                                                                   placeholder="930209-61-0028" 
+                                                                   pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" 
+                                                                   required="required">
+                                                        </label>
                                                             
                                                         <label> Date of birth:
                                                             <input type="text" 
@@ -142,7 +166,8 @@
                                                         
                                                     <fieldset>
                                                         <legend>
-                                                            List of Pre-existing conditions (Skip if this doesn't apply to you)
+                                                            List of Pre-existing conditions 
+                                                            (Skip if this doesn't apply to you)
                                                         </legend> 
                                                         <label>
                                                             <input type="checkbox" 
@@ -171,8 +196,10 @@
                                                         <label>
                                                             <input type="checkbox" 
                                                                    name="input_pre-existing_conditions[]" 
-                                                                   value="Asthma (Or any other related Long-term Lung Disease)"/>
-                                                                        Asthma (Or any other related Long-term Lung Disease)
+                                                                   value="Asthma (Or any other related 
+                                                                          Long-term Lung Disease)"/>
+                                                                        Asthma (Or any other related 
+                                                                        Long-term Lung Disease)
                                                         </label>
 
                                                         <p>

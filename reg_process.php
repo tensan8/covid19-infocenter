@@ -34,13 +34,6 @@
                         array_push($content_to_write, "\t" . $selected . "\n");
                     }
                 }
-
-                #if(!isset($_POST['input_pre-existing_conditions'])){
-                #    $error_msg[] = "Graguate was checked";
-                #}
-                #else {
-                #    $submission_status = 'No age group selected';                 
-                #}
      
                 array_push($content_to_write, "Questions and Concerns: " . $_POST['input_questions'] . "\n");
            
@@ -51,8 +44,8 @@
                 $mm=$arr[1]; // second element is month
                 $yy=$arr[2]; // third element is year
 
-                if(!checkdate($mm,$dd,$yy)){
-                    #echo "invalid date";
+                if(!checkdate((int)$mm,(int)$dd,(int)$yy)){
+                    echo "invalid date";
                 }
                 else {
                     echo "Entry date is correct";
