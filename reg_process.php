@@ -17,8 +17,8 @@
         array_push($content_to_write, "Date Of Birth: " . $_POST['input_dob'] . "\n");
         array_push($content_to_write, "Address: " . $_POST['input_address'] . "\n");
 
-            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                $error_msg = array();
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $error_msg = array();
 
             if (!isset($_POST['input_agegroup'])) {
                 $error_msg[] = "No radio buttons were checked.";
@@ -51,7 +51,7 @@
 
             file_put_contents($_POST['input_nric'] . '.txt', $content_to_write);
             echo '<h3>Registration is successful!</h3>';
-            }
+        }
     }
     ?>
    
