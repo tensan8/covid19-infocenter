@@ -27,34 +27,33 @@
                     array_push($content_to_write, "Age group: " . $_POST['input_agegroup'] . "\n");
                 }
 
-                if(!empty($_POST['input_pre-existing_conditions'])){
-                    array_push($content_to_write, "Pre-existing Conditions: \n");
+            if(!empty($_POST['input_pre-existing_conditions'])){
+                array_push($content_to_write, "Pre-existing Conditions: \n");
 
-                    foreach($_POST['input_pre-existing_conditions'] as $selected){
-                        array_push($content_to_write, "\t" . $selected . "\n");
-                    }
+                foreach($_POST['input_pre-existing_conditions'] as $selected){
+                    array_push($content_to_write, "\t" . $selected . "\n");
                 }
-     
-                array_push($content_to_write, "Questions and Concerns: " . $_POST['input_questions'] . "\n");
-           
-                $dt=$_POST['input_datetime'];
-                $dt="02/28/2007"; // Setting a date in m/d/Y format 
-                $arr=explode("/",$dt); // breaking string to create an array
-                $dd=$arr[0]; // first element of the array is date
-                $mm=$arr[1]; // second element is month
-                $yy=$arr[2]; // third element is year
-
-                if(!checkdate((int)$mm,(int)$dd,(int)$yy)){
-                    echo "invalid date";
-                }
-                else {
-                    echo "Entry date is correct";
-                }
-
-                file_put_contents($_POST['input_nric'] . '.txt', $content_to_write);
-                echo '<h3>Registration is successful!</h3>';
             }
+                
+                array_push($content_to_write, "Questions and Concerns: " . $_POST['input_questions'] . "\n");
+
+                $dt=$_POST['input_datetime'];
+                $dt = "02/28/2007"; // Setting a date in m/d/Y format 
+                $arr = explode("/", $dt); // breaking string to create an array
+                $dd = $arr[0]; // first element of the array is date
+                $mm = $arr[1]; // second element is month
+                $yy = $arr[2]; // third element is year
+
+            if (!checkdate((int)$mm, (int)$dd, (int)$yy)) {
+                echo "invalid date";
+            } else {
+                echo "Entry date is correct";
+            }
+
+            file_put_contents($_POST['input_nric'] . '.txt', $content_to_write);
+            echo '<h3>Registration is successful!</h3>';
         }
+    }
     ?>
    
 </body>
