@@ -58,7 +58,11 @@
                                     <legend><h3> Check Your Registration</h3> </legend>
                                     <label>
                                     NRIC:
-                                        <input type="text" name="check_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"></input>
+                                        <input type="text" 
+                                               name="check_nric" 
+                                               placeholder="930209-61-0028" 
+                                               pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" 
+                                               required="required"></input>
                                     </label>
                                         <button type="submit">Check</button>
                                     </form> 
@@ -111,18 +115,38 @@
 
                                                         <p>
                                                             <label>Share your questions or concerns regarding the vaccine<br/>
-                                                                <textarea  name="input_questions" placeholder="long text" rows="8" cols="30">Enter comments here</textarea>
+                                                                <textarea  name="input_questions" 
+                                                                           placeholder="long text" 
+                                                                           rows="8" 
+                                                                           cols="30">Enter comments here
+                                                                </textarea>
                                                             </label>
                                                         </p>
                                                     </fieldset>
                                                         
                                                     <fieldset>
                                                         <legend>Preferred Date and time for Vaccine appointment</legend> 
-                                                        <p><label>Date<input type="date" name="input_datetime"  placeholder="DD/MM/YYYY" pattern="\d{1,2}/\d{1,2}/\d{4}"
-                                                         max="2021-12-31" min="2021-05-10"/>
-                                                        </label></p>
-                                                        <p><label>Time<input type="time"  name="input_datetime" placeholder="HH:MM" pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" id="12h"
-                                                        min="08:00" max="18:00"/></label></p>   
+                                                        <p>
+                                                            <label>Date
+                                                                <input type="date" 
+                                                                       name="input_datetime"  
+                                                                       placeholder="DD/MM/YYYY" 
+                                                                       pattern="\d{1,2}/\d{1,2}/\d{4}"
+                                                                       max="2021-12-31" 
+                                                                       min="2021-05-10"/>
+                                                            </label>
+                                                        </p>
+                                                        <p>
+                                                            <label>Time
+                                                                <input type="time"  
+                                                                       name="input_datetime" 
+                                                                       placeholder="HH:MM" 
+                                                                       pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" 
+                                                                       id="12h"
+                                                                       min="08:00" 
+                                                                       max="18:00"/>
+                                                            </label>
+                                                        </p>   
                                                     </fieldset>
                                                             
                                                     <p>
