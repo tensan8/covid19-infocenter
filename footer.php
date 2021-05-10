@@ -1,3 +1,4 @@
+<?php ?>
 <div>
     <h5>Disclaimer</h5>
     <p align="justify" style="font-size:0.8em;">This website is created mainly for educational and non-commercial use only. It is a 
