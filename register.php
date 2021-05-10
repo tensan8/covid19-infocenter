@@ -89,32 +89,101 @@
                                                         <input type="text" name="input_nric" placeholder="930209-61-0028" pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" required="required"></label>
                                                             
                                                         <label> Date of birth:
-                                                        <input type="text" name="input_dob" name="pdob" placeholder="DD/MM/YYYY" pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$"
-                                                        required="required"></label>
+                                                            <input type="text" 
+                                                                   name="input_dob" 
+                                                                   name="pdob" 
+                                                                   placeholder="DD/MM/YYYY" 
+                                                                   pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|
+                                                                             (?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|
+                                                                             ^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|
+                                                                             (?:(?:16|[2468][048]|[3579][26])00))))$|
+                                                                             ^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|
+                                                                             (?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$"
+                                                                   required="required">
+                                                        </label>
 
                                                         <label> Address:
-                                                        <input type="text" name="input_address" name="pdob" placeholder="No.XX, name of street, XXXXXX, city, state, country" required="required"></label>
+                                                            <input type="text" 
+                                                                   name="input_address" 
+                                                                   name="pdob" 
+                                                                   placeholder="No.XX, name of street, XXXXXX, city, state, country" 
+                                                                   required="required">
+                                                        </label>
                                                     </fieldset>
 
                                                     <fieldset>
                                                         <legend>Age group</legend>
-                                                        <label><input type="radio" name="input_agegroup" value="Under 18 years old"/>Under 18 years old</label>
-                                                        <label><input type="radio" name="input_agegroup" value="18 to 30 years old"/>18 to 30 years old</label>
-                                                        <label><input type="radio" name="input_agegroup" value="30 to 40 years old"/>30 to 40 years old</label>
-                                                        <label><input type="radio" name="input_agegroup" value="40 to 50 years old"/>40 to 50 years old</label>
-                                                        <label><input type="radio" name="input_agegroup" value="Over 50 years old"/>Over 50 years old</label>
+                                                        <label>
+                                                            <input type="radio" 
+                                                                   name="input_agegroup" 
+                                                                   value="Under 18 years old"/>
+                                                                        Under 18 years old
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" 
+                                                                   name="input_agegroup" 
+                                                                   value="18 to 30 years old"/>
+                                                                        18 to 30 years old
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" 
+                                                                   name="input_agegroup" 
+                                                                   value="30 to 40 years old"/>
+                                                                        30 to 40 years old
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" 
+                                                                   name="input_agegroup" 
+                                                                   value="40 to 50 years old"/>
+                                                                        40 to 50 years old
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" 
+                                                                   name="input_agegroup" 
+                                                                   value="Over 50 years old"/>
+                                                                        Over 50 years old
+                                                        </label>
                                                     </fieldset>   
                                                         
                                                     <fieldset>
-                                                        <legend>List of Pre-existing conditions (Skip if this doesn't apply to you)</legend> 
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="Diabetes"/>Diabetes</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="High Blood Pressure"/>High Blood Pressure</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="High Cholesterol"/>High Cholesterol</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="Heart Disease"/>Heart Disease</label>
-                                                        <label><input type="checkbox" name="input_pre-existing_conditions[]" value="Asthma (Or any other related Long-term Lung Disease)"/>Asthma (Or any other related Long-term Lung Disease)</label>
+                                                        <legend>
+                                                            List of Pre-existing conditions (Skip if this doesn't apply to you)
+                                                        </legend> 
+                                                        <label>
+                                                            <input type="checkbox" 
+                                                                   name="input_pre-existing_conditions[]" 
+                                                                   value="Diabetes"/>
+                                                                        Diabetes
+                                                        </label>
+                                                        <label>
+                                                            <input type="checkbox" 
+                                                                   name="input_pre-existing_conditions[]" 
+                                                                   value="High Blood Pressure"/>
+                                                                        High Blood Pressure
+                                                        </label>
+                                                        <label>
+                                                            <input type="checkbox" 
+                                                                   name="input_pre-existing_conditions[]" 
+                                                                   value="High Cholesterol"/>
+                                                                        High Cholesterol
+                                                        </label>
+                                                        <label>
+                                                            <input type="checkbox" 
+                                                                   name="input_pre-existing_conditions[]" 
+                                                                   value="Heart Disease"/>
+                                                                        Heart Disease
+                                                        </label>
+                                                        <label>
+                                                            <input type="checkbox" 
+                                                                   name="input_pre-existing_conditions[]" 
+                                                                   value="Asthma (Or any other related Long-term Lung Disease)"/>
+                                                                        Asthma (Or any other related Long-term Lung Disease)
+                                                        </label>
 
                                                         <p>
-                                                            <label>Share your questions or concerns regarding the vaccine<br/>
+                                                            <label>
+                                                                Share your questions or concerns regarding the vaccine
+                                                                <br/>
                                                                 <textarea  name="input_questions" 
                                                                            placeholder="long text" 
                                                                            rows="8" 
@@ -125,7 +194,9 @@
                                                     </fieldset>
                                                         
                                                     <fieldset>
-                                                        <legend>Preferred Date and time for Vaccine appointment</legend> 
+                                                        <legend>
+                                                            Preferred Date and time for Vaccine appointment
+                                                        </legend> 
                                                         <p>
                                                             <label>Date
                                                                 <input type="date" 
