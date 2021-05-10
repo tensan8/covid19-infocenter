@@ -62,7 +62,14 @@
                                                 <div class="text-center">
                                                     <img src="home_files/clipboard.png" alt="Clipboard with checkmarks" 
 
-                                                class="card-img-top img-fluid p-0 bg-primary card-img-orig d-none d-md-block rounded-0">
+                                                class="card-img-top 
+                                                       img-fluid 
+                                                       p-0 
+                                                       bg-primary 
+                                                       card-img-orig 
+                                                       d-none 
+                                                       d-md-block 
+                                                       rounded-0">
                                                 </div>
                                             </div>
                                         </div>
