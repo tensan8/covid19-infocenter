@@ -44,9 +44,9 @@
                 $yy = $arr[2]; // third element is year
 
             if (!checkdate((int)$mm, (int)$dd, (int)$yy)) {
-                echo "invalid date";
+                #echo "invalid date";
             } else {
-                echo "Entry date is correct";
+                #echo "Entry date is correct";
             }
 
             file_put_contents($_POST['input_nric'] . '.txt', $content_to_write);
