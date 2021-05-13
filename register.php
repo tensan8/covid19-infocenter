@@ -61,7 +61,7 @@
                                         <input type="text" 
                                                name="check_nric" 
                                                placeholder="930209-61-0028" 
-                                               pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" 
+                                               pattern="[a-zA-Z0-9 ]+$" 
                                                required="required"></input>
                                     </label>
                                         <button type="submit">Check</button>
@@ -94,21 +94,21 @@
                                                             <input type="text" 
                                                                    name="input_name" 
                                                                    placeholder="name" 
-                                                                   pattern="[a-zA-Z]+$"    
+                                                                   pattern="[a-zA-Z ]+$"    
                                                                    required="required">
                                                         </label>  
                                                         <label>Phone Number:
                                                             <input type="text" 
                                                                    name="input_phonenumber" 
                                                                    placeholder="[+60]1029304387" 
-                                                                   pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$"  
+                                                                   pattern="^\+[6.01][0-9](?:.{7}|.{8})$"  
                                                                    required="required">
                                                         </label>   
                                                         <label>IC/Passport Number:
                                                             <input type="text" 
                                                                    name="input_nric" 
                                                                    placeholder="930209-61-0028" 
-                                                                   pattern="(([[1-9]{2})(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))-([0-9]{2})-([0-9]{4})" 
+                                                                   pattern="[a-zA-Z0-9 ]+$" 
                                                                    required="required">
                                                         </label>
                                                             
