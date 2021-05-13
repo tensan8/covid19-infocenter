@@ -101,7 +101,7 @@
                                                             <input type="text" 
                                                                    name="input_phonenumber" 
                                                                    placeholder="+60-1234567/8" 
-                                                                   pattern="^\+[6.01]*-[0-9](?:.{7}|.{8})$"  
+                                                                   pattern="^\+[6.01]*-[0-9](?:.{6}|.{7})$"  
                                                                    required="required">
                                                         </label>   
                                                         <label>IC/Passport Number:
@@ -113,11 +113,9 @@
                                                         </label>
                                                             
                                                         <label> Date of birth:
-                                                            <input type="text" 
+                                                            <input type="Date" 
                                                                    name="input_dob" 
                                                                    name="pdob" 
-                                                                   placeholder="DD/MM/YYYY" 
-                                                                   pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$"
                                                                    required="required">
                                                         </label>
 
