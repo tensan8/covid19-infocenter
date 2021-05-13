@@ -82,13 +82,19 @@
                                     <div></div>
                                 </div>
                                 <div>
+                                    <p>
+                                        <a href="https://bit.ly/3tJEotN">Interview with Sinovac's CEO: How effective 
+                                        is Sinovac's vaccine?</a><br/>
+                                        <video width="620" height="350" controls 
+                                        src="videos/interview_sinovac's_ceo.mp4"></video>
+                                    </p>
+                                    <p>
+                                        <a href="https://bit.ly/3gZvZiR">China considering mixing different COVID-19 
+                                        vaccines to improve low efficacy of its Vaccines | WION</a><br/>
                                         <video width="620" height="350" controls src="videos/mixing_vaccines.mp4">
                                         </video>
-                                        <p>
-                                           <a href="https://bit.ly/3gZvZiR">China considering mixing different COVID-19 
-                                            vaccines to improve low efficacy of its Vaccines | WION</a>
-                                        </p>
-                                    </div>
+                                    </p>
+                                </div>
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
                                         <p align="justify">

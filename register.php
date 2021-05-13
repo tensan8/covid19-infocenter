@@ -60,8 +60,8 @@
                                     NRIC:
                                         <input type="text" 
                                                name="check_nric" 
-                                               placeholder="930209-61-0028" 
-                                               pattern="[a-zA-Z0-9 ]+$" 
+                                               placeholder="alphanumeric" 
+                                               pattern="[a-zA-Z0-9]+$" 
                                                required="required"></input>
                                     </label>
                                         <button type="submit">Check</button>
@@ -100,14 +100,14 @@
                                                         <label>Phone Number:
                                                             <input type="text" 
                                                                    name="input_phonenumber" 
-                                                                   placeholder="[+60]1029304387" 
-                                                                   pattern="^\+[6.01][0-9](?:.{7}|.{8})$"  
+                                                                   placeholder="+60-1234567/8" 
+                                                                   pattern="^\+[6.01]*-[0-9](?:.{7}|.{8})$"  
                                                                    required="required">
                                                         </label>   
                                                         <label>IC/Passport Number:
                                                             <input type="text" 
                                                                    name="input_nric" 
-                                                                   placeholder="930209-61-0028" 
+                                                                   placeholder="alphanumeric" 
                                                                    pattern="[a-zA-Z0-9 ]+$" 
                                                                    required="required">
                                                         </label>
