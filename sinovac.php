@@ -48,9 +48,9 @@
                                         <div class="row">
                                             <div class="col">
                                                 <h3 class="card-title h3 mb-3 text-left">Overview</h3>
-                                                <p>How does this vaccine work?</p>
-                                                <p>How long do vaccines protect against Covid?</p>
-                                                <p>Does the vaccine protect against new variants?</p>
+                                                <p><a href="#work">How does this vaccine work?</a></p>
+                                                <p><a href="#effect">How effective is the Sinovac Vaccine?</a></p>
+                                                <p><a href="#protect">Does the vaccine protect against new variants?</a></p>
                                                
                                             </div>
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
@@ -114,7 +114,8 @@
                                             <a href ="https://bit.ly/3uunMqM">precisionvaccinations.com</a>
                                             </p>
                                             
-                                        <h2 class="card-title h3 mb-3 text-left">How does this vaccine work?</h2>
+                                        <h2 class="card-title h3 mb-3 text-left"
+                                            id="work">How does this vaccine work?</h2>
                                         <p align="justify">
                                             It works by using dormant/deactivated viral particles and injecting them 
                                             into the body and exposing the deactivated viral strands to the body 
@@ -129,7 +130,8 @@
                                         </p>
                                         
             
-                                        <h2 class="card-title h3 mb-3 text-left">
+                                        <h2 class="card-title h3 mb-3 text-left"
+                                            id="effect">
                                             How effective is the Sinovac Vaccine?
                                         </h2>
                                         <p align="justify">
@@ -151,7 +153,8 @@
                                         <p>
                                             Source: <a href="https://bbc.in/3edErt4">www.bbc.com</a>
                                         </p>
-                                        <h2 class="card-title h3 mb-3 text-left">
+                                        <h2 class="card-title h3 mb-3 text-left"
+                                            id="protect">
                                             Does the vaccine protect against new variants?
                                         </h2>
                                         <p align="justify">
