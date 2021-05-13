@@ -6,6 +6,7 @@ on:
     branches:
     - main
     - alesandro
+    - sprint_2_submission
 
 jobs:
   super-lint:
