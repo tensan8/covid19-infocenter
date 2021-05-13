@@ -77,7 +77,11 @@
                         <div class="row ">
                             <div class="col-md-12">
                                 <div class="color-bar cyan half">
-                                    <div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
                                         <video width="620" height="350" controls src="videos/mixing_vaccines.mp4">
                                         </video>
                                         <p>
@@ -85,13 +89,6 @@
                                             vaccines to improve low efficacy of its Vaccines | WION</a>
                                         </p>
                                     </div>
-                                    <div>
-                                        <video width="620" height="350" controls 
-                                            src="videos/interview_sinovac's_ceo.mp4">
-                                        </video>
-                                        <p><a href="https://bit.ly/3b0RzQm">Interview with Sinovac's CEO</a></p></div>
-                                    <div></div>
-                                </div>
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
                                         <p align="justify">
