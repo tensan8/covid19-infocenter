@@ -50,7 +50,11 @@
                                                 <h3 class="card-title h3 mb-3 text-left">Overview</h3>
                                                 <p><a href="#work">How does this vaccine work?</a></p>
                                                 <p><a href="#effect">How effective is the Sinovac Vaccine?</a></p>
-                                                <p><a href="#protect">Does the vaccine protect against new variants?</a></p>
+                                                <p>
+                                                    <a href="#protect">
+                                                        Does the vaccine protect against new variants?
+                                                    </a>
+                                                </p>
                                                
                                             </div>
                                             <div class="pl-md-0 col-md-3 d-none d-md-block">
