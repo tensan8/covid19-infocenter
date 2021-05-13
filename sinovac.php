@@ -77,14 +77,13 @@
                         <div class="row ">
                             <div class="col-md-12">
                                 <div class="color-bar cyan half">
-                                    <div>  
-                                        <iframe width="620" height="350" src="https://bit.ly/3gZvZiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    
+                                        <iframe width="560" height="315" src="https://bit.ly/3gZvZiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                                         </iframe>  
-                                    </div>
-                                    <div>
-                                        <iframe width="620" height="350" src="https://bit.ly/3b0RzQm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    
+                                        <iframe width="560" height="315" src="https://bit.ly/3b0RzQm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                                         </iframe>
-                                </div>
+                                
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
                                         <p align="justify">
