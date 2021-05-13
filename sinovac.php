@@ -77,20 +77,13 @@
                         <div class="row ">
                             <div class="col-md-12">
                                 <div class="color-bar cyan half">
-                                    <div>
-                                        <video width="620" height="350" controls src="videos/mixing_vaccines.mp4">
-                                        </video>
-                                        <p>
-                                           <a href="https://bit.ly/3gZvZiR">China considering mixing different COVID-19 
-                                            vaccines to improve low efficacy of its Vaccines | WION</a>
-                                        </p>
+                                    <div>  
+                                        <iframe width="620" height="350" src="https://bit.ly/3gZvZiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                        </iframe>  
                                     </div>
                                     <div>
-                                        <video width="620" height="350" controls 
-                                            src="videos/interview_sinovac's_ceo.mp4">
-                                        </video>
-                                        <p><a href="https://bit.ly/3b0RzQm">Interview with Sinovac's CEO</a></p></div>
-                                    <div></div>
+                                        <iframe width="620" height="350" src="https://bit.ly/3b0RzQm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                        </iframe>
                                 </div>
                                 <div class="card border-0 rounded-0 mb-3">
                                     <div class="card-body ">
